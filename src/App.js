@@ -50,7 +50,7 @@ function App() {
             <h4>Loading ...</h4>
           ) : (
             newsSearch.map((article) => (
-              <li key={article.url}>
+              <li key={article}>
                 {article.title}
                 <a href={article.url}> here</a>
               </li>
