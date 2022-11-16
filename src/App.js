@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
-import img from "./bmw.jpg";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
